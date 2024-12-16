@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    background: repeating-linear-gradient(90deg, black 10px, rgb(75, 74, 74) 20px);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header,
+footer {
+    padding: 10px;
+    background-color: repeating-linear-gradient(90deg, black 10px, rgb(75, 74, 74) 20px);
+    ;
+    color: rgb(246, 241, 241);
+    display: flexbox;
+}
+
+h1 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+h2,
+h3 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#instructions {
+    margin: 10px 0;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid #333;
+    overflow: hidden;
+
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(96, 100, 105);
+    border-radius: 50%;
+}
+
+#paddle {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    width: 75px;
+    height: 20px;
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+#score,
+#status-message {
+    margin-top: 10px;
+    font-size: 18px;
+}
