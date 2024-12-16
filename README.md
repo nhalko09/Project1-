@@ -1,6 +1,6 @@
 # Project1-Catch the Ball 
 <img width="1421" alt="Screenshot 2024-12-16 at 10 23 32 AM" src="https://github.com/user-attachments/assets/e068775f-ce78-45b1-8d16-bddd8e8f934b" />
-
+https://nhalko09.github.io/Project1-/
 Description:
 Catch the Ball is a fast-paced browser game where players control a paddle to catch a bouncing ball. The goal is to score points by catching the ball while avoiding losing it too many times. Reach the winning score to claim victory, but drop the ball three times, and it's game over!
 
